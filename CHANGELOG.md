@@ -2,6 +2,12 @@
 
 ## 0.11.2dev
 
+* [API Change] Require Python 3.11+ and SQLAlchemy 2.x
+* [Fix] Add support for DuckDB 2, Polars 2, pandas 3 and NumPy 2
+* [Fix] Update plot baselines for matplotlib 3.11
+* [Fix] Make tests resilient to dependency-specific error messages
+* [Fix] Handle `sqlparse` token-limit errors for very large queries
+* [Fix] Support prettytable 3.18 when rendering tables without columns
 * [Fix] Handle `%%sql` cells containing only comments and detect `BEGIN` statements with comments or trailing semicolons ([#1066](https://github.com/ploomber/jupysql/issues/1066))
 
 ## 0.11.1 (2025-03-25)
